@@ -9,7 +9,7 @@ const Nav = () => {
     console.log(open);
   return (
     <nav className='max-md:bg-white bg-none md:h-20 w-full flex items-center justify-between max-md:flex-col max-md:gap-9 max-md:py-5  fixed padding-x font-jost' >
-        <img href='#home' src="src\assets\bilu_logo.png" className=' h-10' alt="" />
+        <img href='#home' src="/bilu_logo.png" className=' h-10' alt="" />
         <div onClick={()=>setOpen(!open)} className=' md:hidden  absolute right-16'>
         <FontAwesomeIcon size="2x" icon={open ? faBars:faXmark} />
 
