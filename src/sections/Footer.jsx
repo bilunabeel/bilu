@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="bg-black_sec">
       <div className="max-container font-jost text-white padding-x py-10 flex justify-between items-center max-md:flex-col max-md:gap-10">
 
-        <img src="src\assets\signature_white.png" alt="bilu logo" className='h-20' />
+        <img src="signature_white.png" alt="bilu logo" className='h-20' />
 
         <div className="grid grid-cols-2 gap-7 max-sm:grid-cols-1">
           {socials.map (social => (

@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
         <div className="md:flex justify-end">
           <img
-            src="src\assets\heroimg.png"
+            src="heroimg.png"
             alt="hero_img"
             className=" md:max-w-md"
           />
