@@ -20,7 +20,7 @@ const Nav = () => {
             <ul href='#portfolios' className='cursor-pointer' >Portfolios</ul>
             <ul href='#testimonials' className='cursor-pointer' >Testimonials</ul>
         </li>
-        <div className={`bg-yellow_primary px-10 py-2 rounded-full text-xl font-regular ${!open && `max-md:hidden`}`}>Let's Talk</div>
+        <div className={`bg-primary px-10 py-2 rounded-full text-xl font-regular ${!open && `max-md:hidden`}`}>Let's Talk</div>
     </nav>
   )
 }

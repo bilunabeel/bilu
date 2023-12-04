@@ -9,7 +9,7 @@ const Hero = () => {
         <div className=''>
             
           <h1 className="md:text-4xl max-md:text-3xl font-medium mb-5">
-            HEY, I'M <span className="bg-yellow_primary">BILU</span>
+            HEY, I'M <span className="bg-primary">BILU</span>
             , A
             <br />
             GRAPHIC DESIGNER
@@ -18,19 +18,19 @@ const Hero = () => {
           </h1>
           <div className='text-xl max-md:text-sm font-medium flex md:justify-start justify-center items-center gap-5 mb-5'>
             <FontAwesomeIcon
-              className="text-yellow_primary"
+              className="text-primary"
               icon={faCertificate}
             />
             <p>Designer</p>
             <FontAwesomeIcon
-              className="text-yellow_primary"
+              className="text-primary"
               icon={faCertificate}
             />
             <p>Web Developer</p>
           </div>
           <div className='text-xl font-medium rounded-full  ' >
             <button className='mr-5 border-solid border-black border-2 rounded-full px-5 py-1 max-lg:mb-5'>Want to discuss?</button>
-            <button className='bg-yellow_primary border-solid border-yellow_primary border-2 rounded-full px-5 py-1'>Let's Talk</button>
+            <button className='bg-primary border-solid border-primary border-2 rounded-full px-5 py-1'>Let's Talk</button>
 
           </div>
         </div>

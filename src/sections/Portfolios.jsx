@@ -41,7 +41,7 @@ const Portfolios = () => {
     <div className='bg-bg_primary'>
     <div className="max-container bg-bg_primary font-jost padding-y">
       {/* <div> */}
-        <div className="absolute bg-yellow_primary w-52 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
+        <div className="absolute bg-primary w-52 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
         <h1 className="text-center text-4xl font-semibold">Portfolios.</h1>
         <p className="text-center text-xl font-medium padding-x">
           Click on the cards to see my portfolios of related category.
