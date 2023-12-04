@@ -28,7 +28,7 @@ const Services = () => {
           {services.map ((service, index) => (
             <div
               key={index}
-              className="h-20 rounded-md text-xl bg-gray_primary font-medium flex justify-center items-center gap-5"
+              className="h-20 rounded-md text-xl bg-black_sec text-white font-medium flex justify-center items-center gap-5"
             >
 
               <service.icon />

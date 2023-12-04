@@ -21,9 +21,9 @@ export default {
         jost: ["Jost","sans-serif"] //extralight, light, regular, medium, semibold
       },
       colors: {
-        'yellow_primary':'#FEDA0A',
-        'bg_primary': "#F2EFE6",
-        'black_sec':'#222221',
+        'yellow_primary':'#f36e26',
+        'bg_primary': "#E5E4C7",
+        'black_sec':'#212222',
         'gray_primary':'#dadad8'
         
       },
