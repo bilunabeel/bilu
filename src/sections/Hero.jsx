@@ -3,13 +3,13 @@ import {faCertificate} from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
-    <div id="home" className="pt-20 padding-x bg-bg_primary font-jost max-md:text-center">
+    <div id="home" className="pt-20 dark:text-white padding-x dark:bg-black bg-bg_primary font-jost max-md:text-center">
       <div className="max-container flex items-center justify-between gap-10 max-md:flex-col max-md:items-center padding-y">
 
         <div className=''>
             
           <h1 className="md:text-4xl max-md:text-3xl font-medium mb-5">
-            HEY, I'M <span className="bg-primary">BILU</span>
+            HEY, I'M <span className="bg-primary dark:text-black">BILU</span>
             , A
             <br />
             GRAPHIC DESIGNER
@@ -29,8 +29,8 @@ const Hero = () => {
             <p>Web Developer</p>
           </div>
           <div className='text-xl font-medium rounded-full  ' >
-            <button className='mr-5 border-solid border-black border-2 rounded-full px-5 py-1 max-lg:mb-5'>Want to discuss?</button>
-            <button className='bg-primary border-solid border-primary border-2 rounded-full px-5 py-1'>Let's Talk</button>
+            <button className='mr-5 border-solid border-black dark:border-white border-2 rounded-full px-5 py-1 max-lg:mb-5'>Want to discuss?</button>
+            <button className='bg-primary border-solid dark:text-black border-primary border-2 rounded-full px-5 py-1'>Let's Talk</button>
 
           </div>
         </div>

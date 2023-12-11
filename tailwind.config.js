@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode:"class",
   theme: {
     fontSize: {
       xs: ['12px', '16px'],
@@ -21,10 +22,10 @@ export default {
         jost: ["Jost","sans-serif"] //extralight, light, regular, medium, semibold
       },
       colors: {
-        'primary':'#f36e26',
-        'bg_primary': "#E5E4C7",
-        'black_sec':'#212222',
-        'gray_primary':'#dadad8'
+        'primary':'#f36e26', //orange
+        'bg_primary': "#E5E4C7", //white and yellow mix
+        'black_sec':'#212222', //dark gray
+        'gray_primary':'#dadad8' //light gray
         
       },
     },

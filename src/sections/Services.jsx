@@ -15,7 +15,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-bg_primary">
+    <div className="dark:bg-black bg-bg_primary dark:text-white">
       <div className="max-container font-jost padding-y">
         {/* <div> */}
           <div className="absolute bg-primary w-48 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
@@ -28,7 +28,7 @@ const Services = () => {
           {services.map ((service, index) => (
             <div
               key={index}
-              className="h-20 rounded-md text-xl bg-black_sec text-white font-medium flex justify-center items-center gap-5"
+              className="h-20 rounded-md text-xl  dark:border-2 bg-black_sec dark:bg-transparent text-white font-medium flex justify-center items-center gap-5"
             >
 
               <service.icon />

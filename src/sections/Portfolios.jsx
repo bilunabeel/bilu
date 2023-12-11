@@ -38,8 +38,8 @@ const Portfolios = () => {
     },
   ];
   return (
-    <div className='bg-bg_primary'>
-    <div className="max-container bg-bg_primary font-jost padding-y">
+    <div className='bg-bg_primary dark:text-white dark:bg-black'>
+    <div className="max-container bg-bg_primary dark:bg-black font-jost padding-y">
       {/* <div> */}
         <div className="absolute bg-primary w-52 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
         <h1 className="text-center text-4xl font-semibold">Portfolios.</h1>
@@ -51,7 +51,7 @@ const Portfolios = () => {
         {portfolios.map ((portfolio, index) => (
           <div
             key={index}
-            className=" border-solid border-black_sec text-black_sec border-2 py-6 px-6  rounded-md "
+            className=" border-solid dark:border-white border-black_sec dark:text-white text-black_sec border-2 py-6 px-6  rounded-md "
           >
 
             
