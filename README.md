@@ -1,5 +1,15 @@
 # React + Vite
 
+git add .
+
+git commit -m 'changes'
+
+npm run build
+
+npm run deploy
+
+deployed: https://bilunabeel.github.io/bilu/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
