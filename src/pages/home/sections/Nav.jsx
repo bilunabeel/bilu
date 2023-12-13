@@ -8,12 +8,12 @@ const Nav = () => {
   
   return (
     <nav className=" bg-bg_primary shadow-md dark:bg-black dark:text-white md:h-20 w-full flex items-center justify-between max-md:flex-col max-md:gap-9 max-md:py-5  fixed padding-x font-jost">
-      <img src="bilu_logo.png" className="dark:hidden h-10" alt="" />
-      <img
+      <a className='dark:hidden' href="/"><img src="bilu_logo.png" className=" h-10" alt="" /></a>
+      <a className='dark:block hidden' href="/"><img
         src="signature_white.png"
-        className="dark:block h-10 hidden"
+        className="h-10 "
         alt=""
-      />
+      /></a>
       <div
         onClick={() => setOpen (!open)}
         className=" md:hidden  absolute right-16"
@@ -25,16 +25,16 @@ const Nav = () => {
         className={` flex gap-9 max-md:flex-col max-md:items-center max-md:gap-9 text-xl font-regular ${!open && `max-md:hidden`}`}
       >
         <ul className="cursor-pointer">
-          <a href="/#">Home</a>
+          <a href="/">Home</a>
         </ul>
         <ul className="cursor-pointer">
-          <a href="/#services">Services</a>
+          <a href="#services">Services</a>
         </ul>
         <ul className="cursor-pointer">
-          <a href="/#portfolios">Portfolios</a>
+          <a href="#portfolios">Portfolios</a>
         </ul>
         <ul className="cursor-pointer">
-          <a href="/#testimonials">Testimonials</a>
+          <a href="#testimonials">Testimonials</a>
         </ul>
       </li>
       {/* <div className="flex gap-4 items-center"> */}
