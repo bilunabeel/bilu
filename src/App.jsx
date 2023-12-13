@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Footer from './pages/home/sections/Footer';
 import Nav from './pages/home/sections/Nav';
-import ServicesPage from './pages/ServicesPage';
+import ServicesPage from './pages/service page/ServicesPage';
 import Home from './pages/home/Home';
 
 function App () {

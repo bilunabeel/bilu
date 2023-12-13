@@ -25,16 +25,16 @@ const Nav = () => {
         className={` flex gap-9 max-md:flex-col max-md:items-center max-md:gap-9 text-xl font-regular ${!open && `max-md:hidden`}`}
       >
         <ul className="cursor-pointer">
-          <a href="#">Home</a>
+          <a href="/#">Home</a>
         </ul>
         <ul className="cursor-pointer">
-          <a href="#services">Services</a>
+          <a href="/#services">Services</a>
         </ul>
         <ul className="cursor-pointer">
-          <a href="#portfolios">Portfolios</a>
+          <a href="/#portfolios">Portfolios</a>
         </ul>
         <ul className="cursor-pointer">
-          <a href="#testimonials">Testimonials</a>
+          <a href="/#testimonials">Testimonials</a>
         </ul>
       </li>
       {/* <div className="flex gap-4 items-center"> */}
