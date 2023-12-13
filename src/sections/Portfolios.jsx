@@ -1,8 +1,8 @@
-import {CgInstagram,CgCodeSlash} from 'react-icons/cg' 
-import {LuPenTool} from 'react-icons/lu' 
-import {RiLayoutMasonryLine} from 'react-icons/ri' 
-import {RxTransform} from 'react-icons/rx' 
-import {IoNewspaperOutline} from 'react-icons/io5'  
+import {CgInstagram, CgCodeSlash} from 'react-icons/cg';
+import {LuPenTool} from 'react-icons/lu';
+import {RiLayoutMasonryLine} from 'react-icons/ri';
+import {RxTransform} from 'react-icons/rx';
+import {IoNewspaperOutline} from 'react-icons/io5';
 
 const Portfolios = () => {
   const portfolios = [
@@ -38,31 +38,30 @@ const Portfolios = () => {
     },
   ];
   return (
-    <div className='bg-bg_primary dark:text-white dark:bg-black'>
-    <div className="max-container bg-bg_primary dark:bg-black font-jost padding-y">
-      {/* <div> */}
+    <div id='portfolios' className="bg-bg_primary dark:text-white dark:bg-black">
+      <div className="max-container bg-bg_primary dark:bg-black font-jost padding-y">
+        {/* <div> */}
         <div className="absolute bg-primary w-52 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
         <h1 className="text-center text-4xl font-semibold">Portfolios.</h1>
         <p className="text-center text-xl font-medium padding-x">
           Click on the cards to see my portfolios of related category.
         </p>
-      {/* </div> */}
-      <div className="padding-x padding-y grid lg:grid-cols-3 md:grid-cols-2 gap-10">
-        {portfolios.map ((portfolio, index) => (
-          <div
-            key={index}
-            className=" border-solid dark:border-white border-black_sec dark:text-white text-black_sec border-2 py-6 px-6  rounded-md "
-          >
+        {/* </div> */}
+        <div className="padding-x padding-y grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+          {portfolios.map ((portfolio, index) => (
+            <div
+              key={index}
+              className=" border-solid dark:border-white border-black_sec dark:text-white text-black_sec border-2 py-6 px-6  rounded-md "
+            >
 
-            
-            <portfolio.icon  className='text-3xl mb-6' />
-            <p className='font-medium text-2xl mb-6' >{portfolio.title}</p>
-            
-            <p className='leading-5'>{portfolio.text}</p>
-          </div>
-        ))}
+              <portfolio.icon className="text-3xl mb-6" />
+              <p className="font-medium text-2xl mb-6">{portfolio.title}</p>
+
+              <p className="leading-5">{portfolio.text}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 };

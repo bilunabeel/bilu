@@ -20,7 +20,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <div className="bg-bg_primary dark:bg-black dark:text-white">
+    <div id='testimonials' className="bg-bg_primary dark:bg-black dark:text-white">
       <div className="max-container  font-jost padding-y ">
         {/* <div> */}
           <div className="absolute bg-primary w-64 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />

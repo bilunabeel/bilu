@@ -15,7 +15,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="dark:bg-black bg-bg_primary dark:text-white">
+    <section id='services' className="dark:bg-black bg-bg_primary dark:text-white">
       <div className="max-container font-jost padding-y">
         {/* <div> */}
           <div className="absolute bg-primary w-48 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
@@ -37,7 +37,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

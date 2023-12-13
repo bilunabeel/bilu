@@ -7,15 +7,9 @@ const Nav = () => {
   const [open, setOpen] = useState (false);
   console.log (open);
   return (
-    <nav className=" bg-none dark:text-white md:h-20 w-full flex items-center justify-between max-md:flex-col max-md:gap-9 max-md:py-5  fixed padding-x font-jost">
+    <nav className=" bg-bg_primary shadow-md dark:bg-black dark:text-white md:h-20 w-full flex items-center justify-between max-md:flex-col max-md:gap-9 max-md:py-5  fixed padding-x font-jost">
+      <img src="bilu_logo.png" className="dark:hidden h-10" alt="" />
       <img
-        href="#home"
-        src="bilu_logo.png"
-        className="dark:hidden h-10"
-        alt=""
-      />
-      <img
-        href="#home"
         src="signature_white.png"
         className="dark:block h-10 hidden"
         alt=""
@@ -30,19 +24,29 @@ const Nav = () => {
       <li
         className={` flex gap-9 max-md:flex-col max-md:items-center max-md:gap-9 text-xl font-regular ${!open && `max-md:hidden`}`}
       >
-        <ul href="#home" className="cursor-pointer">Home</ul>
-        <ul href="#services" className="cursor-pointer">Services</ul>
-        <ul href="#portfolios" className="cursor-pointer">Portfolios</ul>
-        <ul href="#testimonials" className="cursor-pointer">Testimonials</ul>
+        <ul className="cursor-pointer">
+          <a href="#">Home</a>
+        </ul>
+        <ul className="cursor-pointer">
+          <a href="#services">Services</a>
+        </ul>
+        <ul className="cursor-pointer">
+          <a href="#portfolios">Portfolios</a>
+        </ul>
+        <ul className="cursor-pointer">
+          <a href="#testimonials">Testimonials</a>
+        </ul>
       </li>
       {/* <div className="flex gap-4 items-center"> */}
 
-        <div
-          className={`flex gap-4 items-center max-md:flex-col max-md:gap-9 ${!open && `max-md:hidden`}`}
-        >
-          <p className='bg-primary dark:text-black px-10 py-2 rounded-full text-xl font-medium'>Let's Talk</p>
+      <div
+        className={`flex gap-4 items-center max-md:flex-col max-md:gap-9 ${!open && `max-md:hidden`}`}
+      >
+        <p className="bg-primary dark:text-black px-10 py-2 rounded-full text-xl font-medium">
+          Let's Talk
+        </p>
         <Switcher />
-        </div>
+      </div>
       {/* </div> */}
     </nav>
   );
