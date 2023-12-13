@@ -51,7 +51,7 @@ const Portfolios = () => {
         <div className="padding-x padding-y grid lg:grid-cols-3 md:grid-cols-2 gap-10">
           {portfolios.map ((portfolio, index) => (
             <Link
-            to={'/services'}
+            to={'/bilu/services'}
               key={index}
               className=" border-solid dark:border-white border-black_sec dark:text-white text-black_sec border-2 py-6 px-6  rounded-md "
             >

@@ -28,13 +28,13 @@ const Nav = () => {
         >
           
           <ul className="cursor-pointer">
-            <HashLink to="/#services">Services</HashLink>
+            <HashLink to="/bilu/#services">Services</HashLink>
           </ul>
           <ul className="cursor-pointer">
-            <HashLink to="/#portfolios">Portfolios</HashLink>
+            <HashLink to="/bilu/#portfolios">Portfolios</HashLink>
           </ul>
           <ul className="cursor-pointer">
-            <HashLink to="/#testimonials">Testimonials</HashLink>
+            <HashLink to="/bilu/#testimonials">Testimonials</HashLink>
           </ul>
         </li>
       {/* <div className="flex gap-4 items-center"> */}

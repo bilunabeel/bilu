@@ -29,7 +29,7 @@ const Services = () => {
         <div className="padding-x padding-y grid lg:grid-cols-3 md:grid-cols-2 gap-10">
           {services.map ((service, index) => (
             <Link
-            to='/services'
+            to='/bilu/services'
               key={index}
               className="h-20 rounded-md text-xl  dark:border-2 bg-black_sec dark:bg-transparent text-white font-medium flex justify-center items-center gap-5"
             >
