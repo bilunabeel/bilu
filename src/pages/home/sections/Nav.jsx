@@ -1,11 +1,11 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars, faXmark} from '@fortawesome/free-solid-svg-icons';
 import {useState} from 'react';
-import Switcher from '../components/Switcher';
+import Switcher from '../../../components/Switcher';
 
 const Nav = () => {
   const [open, setOpen] = useState (false);
-  console.log (open);
+  
   return (
     <nav className=" bg-bg_primary shadow-md dark:bg-black dark:text-white md:h-20 w-full flex items-center justify-between max-md:flex-col max-md:gap-9 max-md:py-5  fixed padding-x font-jost">
       <img src="bilu_logo.png" className="dark:hidden h-10" alt="" />

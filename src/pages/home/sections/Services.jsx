@@ -3,10 +3,12 @@ import {LuPenTool} from 'react-icons/lu';
 import {RiLayoutMasonryLine} from 'react-icons/ri';
 import {SiMaterialdesignicons} from 'react-icons/si';
 import {IoNewspaperOutline} from 'react-icons/io5';
+import { Link } from 'react-router-dom';
+
 
 const Services = () => {
   const services = [
-    {icon: SiMaterialdesignicons, ser: 'Graphic Designing'},
+    {icon: SiMaterialdesignicons, ser: 'Graphic Designing' },
     {icon: CgCodeSlash, ser: 'Web Development'},
     {icon: CgInstagram, ser: 'Social Media Posts'},
     {icon: LuPenTool, ser: 'Logo/Branding'},
@@ -26,14 +28,15 @@ const Services = () => {
         {/* </div> */}
         <div className="padding-x padding-y grid lg:grid-cols-3 md:grid-cols-2 gap-10">
           {services.map ((service, index) => (
-            <div
+            <Link
+            to='/services'
               key={index}
               className="h-20 rounded-md text-xl  dark:border-2 bg-black_sec dark:bg-transparent text-white font-medium flex justify-center items-center gap-5"
             >
 
               <service.icon />
               <p>{service.ser}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
