@@ -1,7 +1,4 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faUser} from '@fortawesome/free-solid-svg-icons';
-import {CgInstagram, CgCodeSlash} from 'react-icons/cg';
-import {IoPersonOutline} from 'react-icons/io5';
+
 import {MdPersonOutline} from 'react-icons/md';
 
 const Testimonials = () => {
@@ -20,7 +17,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <div id='testimonials' className="bg-bg_primary dark:bg-black dark:text-white">
+    <section id='testimonials' className="bg-bg_primary dark:bg-black dark:text-white">
       <div className="max-container  font-jost padding-y ">
         {/* <div> */}
           <div className="absolute bg-primary w-64 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
@@ -44,7 +41,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

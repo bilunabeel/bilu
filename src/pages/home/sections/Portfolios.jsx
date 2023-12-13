@@ -39,7 +39,7 @@ const Portfolios = () => {
     },
   ];
   return (
-    <div id='portfolios' className="bg-bg_primary dark:text-white dark:bg-black">
+    <section id='portfolios' className="bg-bg_primary dark:text-white dark:bg-black">
       <div className="max-container bg-bg_primary dark:bg-black font-jost padding-y">
         {/* <div> */}
         <div className="absolute bg-primary w-52 h-4 mt-9 left-1/2 transform -translate-x-1/2 -z-10" />
@@ -64,7 +64,7 @@ const Portfolios = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

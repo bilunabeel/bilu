@@ -20,9 +20,9 @@ const ServicesPage = () => {
     <div id="" className="pt-20 dark:text-white md:padding-x max-md:px-3 dark:bg-black bg-bg_primary font-jost">
       <div className="columns-4 gap-6 max-md:columns-3 max-sm:columns-2  padding-y">
       {images.map((im)=>(
-        <div>
+        <div key={im.name} >
 
-        <img className='w-full mb-6 rounded-3xl' key={im.name} src={im.src} alt={im.name} />
+        <img  className='w-full mb-6 rounded-3xl'  src={im.src} alt={im.name} />
         </div>
         ))}
         </div>

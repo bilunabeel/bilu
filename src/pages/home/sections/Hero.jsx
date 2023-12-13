@@ -3,7 +3,7 @@ import {faCertificate} from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
-    <div  className="pt-20 dark:text-white padding-x dark:bg-black bg-bg_primary font-jost max-md:text-center">
+    <section  className="pt-20 dark:text-white padding-x dark:bg-black bg-bg_primary font-jost max-md:text-center">
       <div className="max-container flex items-center justify-between gap-10 max-md:flex-col max-md:items-center padding-y">
 
         <div className=''>
@@ -42,7 +42,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
