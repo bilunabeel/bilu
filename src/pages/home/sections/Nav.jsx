@@ -9,10 +9,10 @@ const Nav = () => {
 
   return (
     <nav className=" bg-bg_primary shadow-md dark:bg-black dark:text-white md:h-20 w-full flex items-center justify-between max-md:flex-col max-md:gap-9 max-md:py-5  fixed padding-x font-jost">
-      <a className="dark:hidden" href="/">
+      <a className="dark:hidden" href="/bilu/">
         <img src="bilu_logo.png" className=" h-10" alt="" />
       </a>
-      <a className="dark:block hidden" href="/">
+      <a className="dark:block hidden" href="/bilu/">
         <img src="signature_white.png" className="h-10 " alt="" />
       </a>
       <div
@@ -28,13 +28,13 @@ const Nav = () => {
         >
           
           <ul className="cursor-pointer">
-            <HashLink to="/bilu/#services">Services</HashLink>
+            <HashLink to={location.pathname + "#services"}>Services</HashLink>
           </ul>
           <ul className="cursor-pointer">
-            <HashLink to="/bilu/#portfolios">Portfolios</HashLink>
+            <HashLink to={location.pathname + "#portfolios"}>Portfolios</HashLink>
           </ul>
           <ul className="cursor-pointer">
-            <HashLink to="/bilu/#testimonials">Testimonials</HashLink>
+            <HashLink to={location.pathname + "#testimonials"}>Testimonials</HashLink>
           </ul>
         </li>
       {/* <div className="flex gap-4 items-center"> */}
