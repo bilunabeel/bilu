@@ -19,7 +19,7 @@ function App () {
 
         <Route path="/bilu" element={<Home />} />
         <Route path="/bilu/services" element={<ServicesPage />} />
-        <Route path="/" when={!location.pathname.startsWith("/bilu/")} element={<Navigate to="/bilu/" />} />
+        <Route path="/" element={<Navigate to="/bilu/"/>} when={!location.pathname.startsWith("/bilu/")}   />
 
       </Routes>
 

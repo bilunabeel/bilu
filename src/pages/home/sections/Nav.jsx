@@ -28,7 +28,7 @@ const Nav = () => {
         >
           
           <ul className="cursor-pointer">
-            <HashLink to={location.pathname + "#services"}>Services</HashLink>
+            <HashLink to={location.pathname + "#servicesection"}>Services</HashLink>
           </ul>
           <ul className="cursor-pointer">
             <HashLink to={location.pathname + "#portfolios"}>Portfolios</HashLink>
